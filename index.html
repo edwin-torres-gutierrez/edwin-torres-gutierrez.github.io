@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Edwin Torres | Senior Solutions Engineer</title>
+<meta name="description" content="Edwin Torres, Senior Solutions Engineer and Presales Engineer with 11+ years helping enterprises in Latin America and North America adopt SaaS, cloud, AI, and API solutions.">
+<meta property="og:title" content="Edwin Torres | Senior Solutions Engineer">
+<meta property="og:description" content="Presales and solution consulting across SaaS, cloud, AI agents, and API integrations. Visa, Whale Cloud, Avaya.">
+<meta property="og:type" content="profile">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B1B2E'/%3E%3Ctext x='32' y='42' font-family='Arial' font-weight='700' font-size='26' text-anchor='middle' fill='%233CC8B4'%3EET%3C/text%3E%3C/svg%3E">
+<style>
+  :root{
+    --navy:#0B1B2E; --navy2:#13304B; --blue:#1B4766; --teal:#3CC8B4; --teal-dark:#1F8F80;
+    --ink:#1A2433; --muted:#5B6B7F; --line:#E1E7EF; --bg:#F6F8FB; --card:#FFFFFF;
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:Inter,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55;font-size:16px;-webkit-font-smoothing:antialiased}
+  a{color:var(--blue)}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+
+  /* Hero */
+  header.hero{background:radial-gradient(1200px 400px at 85% -10%,rgba(60,200,180,.22),transparent 60%),linear-gradient(135deg,var(--navy) 0%,var(--navy2) 55%,var(--blue) 100%);color:#fff;padding:64px 0 88px;position:relative;overflow:hidden}
+  header.hero:after{content:"";position:absolute;inset:auto -10% -1px -10%;height:60px;background:var(--bg);border-radius:50% 50% 0 0/100% 100% 0 0}
+  .hero .kicker{display:inline-block;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal);font-weight:700;margin-bottom:14px}
+  .hero h1{font-size:clamp(36px,6vw,58px);line-height:1.05;margin:0 0 12px;font-weight:800;letter-spacing:-.02em}
+  .hero .role{font-size:clamp(17px,2.2vw,21px);color:#D6E2EE;margin:0 0 6px;font-weight:500}
+  .hero .focus{font-size:15px;color:#9FB6CC;margin:0 0 28px}
+  .actions{display:flex;flex-wrap:wrap;gap:10px}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:999px;font-weight:600;font-size:15px;text-decoration:none;transition:transform .15s ease,background .15s ease}
+  .btn:hover{transform:translateY(-1px)}
+  .btn.primary{background:var(--teal);color:var(--navy)}
+  .btn.primary:hover{background:#56D6C4}
+  .btn.ghost{color:#fff;border:1px solid rgba(255,255,255,.35)}
+  .btn.ghost:hover{background:rgba(255,255,255,.08)}
+  .btn svg{width:17px;height:17px;flex:none}
+  .loc{margin-top:22px;font-size:14px;color:#9FB6CC}
+
+  /* Highlights */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:-52px;position:relative;z-index:2}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px 18px;box-shadow:0 8px 24px rgba(11,27,46,.06)}
+  .stat b{display:block;font-size:28px;line-height:1.1;color:var(--navy);font-weight:800;letter-spacing:-.01em}
+  .stat span{display:block;margin-top:8px;font-size:14px;color:var(--muted)}
+
+  /* Sections */
+  section{padding:44px 0 8px}
+  h2{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-dark);margin:0 0 18px;font-weight:800}
+  .summary{font-size:18px;color:#2B3748;max-width:860px;margin:0}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+  .chips li{background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 13px;font-size:14px;color:#2B3748}
+
+  .skills{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+  .skill{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px}
+  .skill h3{margin:0 0 10px;font-size:15px;color:var(--navy)}
+  .skill p{margin:0;font-size:14.5px;color:#3A4759}
+
+  /* Experience */
+  .timeline{position:relative;margin:0;padding:0;list-style:none}
+  .timeline:before{content:"";position:absolute;left:7px;top:8px;bottom:8px;width:2px;background:var(--line)}
+  .job{position:relative;padding:0 0 30px 34px}
+  .job:before{content:"";position:absolute;left:0;top:7px;width:16px;height:16px;border-radius:50%;background:#fff;border:3px solid var(--teal)}
+  .job-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 16px;align-items:baseline}
+  .job h3{margin:0;font-size:19px;color:var(--navy)}
+  .job .company{font-weight:600;color:var(--blue)}
+  .job .meta{font-size:14px;color:var(--muted);white-space:nowrap}
+  .job .where{font-size:14px;color:var(--muted);margin:2px 0 10px}
+  .job ul{margin:0;padding-left:18px}
+  .job li{margin:0 0 7px;color:#2B3748;font-size:15.5px}
+  .job li::marker{color:var(--teal)}
+  .job.compact{padding-bottom:18px}
+
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px}
+  .card h3{margin:0 0 4px;font-size:16px;color:var(--navy)}
+  .card p{margin:0;font-size:14.5px;color:var(--muted)}
+  .stack > * + *{margin-top:12px}
+
+  footer{margin-top:48px;background:var(--navy);color:#9FB6CC;padding:28px 0;font-size:14px}
+  footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+  footer a{color:#fff;text-decoration:none}
+  footer a:hover{text-decoration:underline}
+
+  @media (max-width:860px){
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .skills,.grid2{grid-template-columns:1fr}
+  }
+  @media (max-width:480px){
+    .wrap{padding:0 18px}
+    header.hero{padding:48px 0 80px}
+    .stat b{font-size:24px}
+    .summary{font-size:16.5px}
+    .job .meta{white-space:normal}
+  }
+  @media print{
+    header.hero{background:none;color:var(--ink);padding:0}
+    header.hero:after,.actions,footer{display:none}
+    .hero .role,.hero .focus,.loc{color:var(--ink)}
+    .stats{margin-top:16px}
+    .stat,.skill,.card{box-shadow:none}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="kicker">Solutions Engineering · Presales</span>
+    <h1>Edwin Torres</h1>
+    <p class="role">Senior Solutions Engineer | Presales Engineer</p>
+    <p class="focus">SaaS, Cloud, AI Agents &amp; API Integrations · Latin America &amp; North America</p>
+    <div class="actions">
+      <a class="btn primary" href="Edwin_Torres_Resume.pdf" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+        Download CV (PDF)
+      </a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/edwin-torres-gutierrez" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+        LinkedIn
+      </a>
+      <a class="btn ghost" href="mailto:edwintorresguti@hotmail.com">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        Email
+      </a>
+      <a class="btn ghost" href="https://github.com/edwin-torres-gutierrez" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a10.9 10.9 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.08 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+        GitHub
+      </a>
+    </div>
+    <p class="loc">Based in Bogotá, Colombia · Spanish (native) · English (full professional proficiency)</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="stats" aria-label="Highlights">
+    <div class="stat"><b>USD 2.5M</b><span>Super app engagement secured with Claro Colombia</span></div>
+    <div class="stat"><b>80,000+</b><span>Avaya Spaces licenses sold in six months</span></div>
+    <div class="stat"><b>+20%</b><span>Transaction volume after MoneyGram's migration to Visa Direct</span></div>
+    <div class="stat"><b>Days to hours</b><span>RFI and RFP responses with AI agents I built</span></div>
+  </div>
+
+  <section id="summary">
+    <h2>Professional Summary</h2>
+    <p class="summary">Senior Solutions Engineer with 11+ years in presales and solution consulting, helping enterprises in Latin America and North America adopt SaaS, cloud, and AI solutions, specializing in complex integrations across payments, AI, and CX platforms. Led API integration consulting for MoneyGram’s global migration to Visa Direct, secured a USD 2.5M super app engagement with Claro Colombia at Whale Cloud, and built AI agents that cut RFP responses from days to hours. Skilled in technical discovery, MEDDIC, demos, PoCs, and executive presentations.</p>
+  </section>
+
+  <section id="competencies">
+    <h2>Core Competencies</h2>
+    <ul class="chips">
+      <li>Sales Engineering</li><li>Pre-Sales Engineering</li><li>SaaS &amp; Cloud Solutions</li><li>AI Agents &amp; Conversational AI</li>
+      <li>Technical Discovery</li><li>Solution Architecture</li><li>Technical Demos &amp; PoCs</li><li>RFP &amp; RFI Responses</li>
+      <li>API Integrations</li><li>Payments &amp; Fintech</li><li>Value Selling &amp; MEDDIC</li><li>Go-to-Market &amp; Product Positioning</li>
+      <li>Partner Enablement &amp; Training</li><li>Customer Success &amp; Retention</li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ol class="timeline">
+      <li class="job">
+        <div class="job-head"><h3>Principal Solutions Manager <span class="company">· Visa Inc.</span></h3><span class="meta">Feb 2024 - Oct 2025</span></div>
+        <p class="where">Presales and Solutions Engineering · Bogotá, Colombia and Atlanta, GA</p>
+        <ul>
+          <li>Led API integration consulting for MoneyGram’s migration from legacy infrastructure to the new Visa Direct portfolio, from a Taiwan pilot to rollout across Asia, Europe, and the Americas with Visa and client teams, cutting cross-border payout times from 1 to 3 business days to same day or even minutes and growing transaction volume by 20%.</li>
+          <li>Guided assigned Yellow Pepper and global Visa Direct clients through their transition to the new Visa Direct portfolio, with 90% of clients moving to production, growing volumes, and time to production cut from 6 to 4 months.</li>
+          <li>Built AI agents using RAG and database queries over internal Visa Direct and Currencycloud knowledge bases, cutting point-by-point RFI and RFP responses from several working days to a couple of hours across 4 to 5 tenders in six months, while keeping presales content current with each product release.</li>
+          <li>Advised 20+ global clients, including BBVA and Paysend, by mapping business challenges to Visa Direct, Currencycloud, and third-party payment solutions, and trained 80% of assigned originator clients on Visa Direct, increasing adoption and identifying integration opportunities across North and Latin America.</li>
+          <li>Supported the migration of Yape to Visa Plus for a Peruvian banking consortium, contributing to API integration, alias resolution, security, and technical documentation to improve interoperability across wallets and banks.</li>
+        </ul>
+      </li>
+      <li class="job">
+        <div class="job-head"><h3>Presales Engineer, Latin America <span class="company">· Whale Cloud Technologies</span></h3><span class="meta">Jun 2023 - Nov 2023</span></div>
+        <p class="where">Bogotá, Colombia</p>
+        <ul>
+          <li>Secured a USD 2.5M super app engagement with Claro Colombia by identifying customer needs and coordinating the implementation strategy for launching an Alipay-style super app in Latin America.</li>
+          <li>Designed and presented enterprise solution architectures spanning IaaS, PaaS, SaaS, digital identity, biometric verification, and Know Your Customer (KYC), leveraging Oracle Cloud Infrastructure and IBM Watson to support secure onboarding, regulatory compliance, and scalable cloud adoption.</li>
+          <li>Architected and coordinated the end-to-end integration of Claro Music, Claro Pay, Claro Video, mobile and broadband billing systems, and Salesforce CRM into a unified super app ecosystem for customer data, service access, billing, and payments.</li>
+          <li>Executed go-to-market strategies through partner management and lead qualification, increasing regional visibility and strengthening sales execution.</li>
+          <li>Delivered product demonstrations, proofs of concept (PoCs), and technical training for enterprise clients and partners, supporting complex presales engagements and competitive differentiation.</li>
+        </ul>
+      </li>
+      <li class="job">
+        <div class="job-head"><h3>Customer Success Manager, Caribbean and Latin America <span class="company">· Avaya</span></h3><span class="meta">Oct 2021 - May 2023</span></div>
+        <p class="where">Bogotá, Colombia</p>
+        <ul>
+          <li>Strengthened customer relationships by mapping business needs to Avaya's enterprise contact center portfolio, providing technical consulting that improved satisfaction and reduced support tickets.</li>
+          <li>Achieved 70% to 80% retention of assigned legacy accounts across the Caribbean and Latin America, including Atento and Teleperformance, by guiding their move to SaaS and early AI capabilities and expanding cloud portfolios.</li>
+          <li>Led the redesign of the cloud service strategy, increasing customer satisfaction by 25% through cross-functional solution reviews, technical presentations, and effective solution handovers.</li>
+          <li>Delivered interactive onboarding programs, including PoCs, product demonstrations, and webinars, reducing time to adoption and increasing product utilization.</li>
+        </ul>
+      </li>
+      <li class="job">
+        <div class="job-head"><h3>Sales Specialist Engineer, Caribbean and Latin America <span class="company">· Avaya</span></h3><span class="meta">Oct 2019 - Oct 2021</span></div>
+        <p class="where">Bogotá, Colombia</p>
+        <ul>
+          <li>Developed and executed go-to-market strategies for enterprise and mid-market cloud solutions, using Oracle NetSuite and SAP to align pricing and forecasting and expand the customer pipeline.</li>
+          <li>Collaborated with account managers and cross-functional teams to promote CCaaS, UCaaS, DaaS, and third-party offerings, strengthening retention and revenue streams.</li>
+          <li>Co-led the go-to-market strategy for Avaya Spaces, powered by NVIDIA AI, contributing to more than 80,000 licenses sold within six months and a 20% year-over-year increase in UCaaS revenue.</li>
+          <li>Designed AI-powered IVR flows using IBM Watson and Google Dialogflow, reducing average handle time by 25%.</li>
+          <li>Led partner enablement across Latin America through workshops, webinars, and hackathons, strengthening technical execution and competitive positioning.</li>
+        </ul>
+      </li>
+      <li class="job">
+        <div class="job-head"><h3>Business Specialist Engineer <span class="company">· IFX Networks Colombia</span></h3><span class="meta">Aug 2017 - Sep 2018</span></div>
+        <p class="where">Bogotá, Colombia</p>
+        <ul>
+          <li>Served as solutions architect and consultant for enterprise clients, analyzing connectivity, data center, and cloud requirements to design technical solutions and increase service adoption.</li>
+          <li>Developed customer acquisition, pricing, and go-to-market strategies for IT solutions across the United States, Central America, and the Andean Region.</li>
+          <li>Managed key accounts across telecommunications, service providers, enterprise, banking, and public-sector segments, ensuring effective engagement and smooth solution transitions.</li>
+          <li>Negotiated pricing and prepared competitive proposals and RFP responses for cloud portfolios, with an 80% win rate.</li>
+        </ul>
+      </li>
+      <li class="job compact">
+        <div class="job-head"><h3>Sales Engineer <span class="company">· Logicalis</span></h3><span class="meta">Nov 2016 - Aug 2017</span></div>
+        <p class="where">Bogotá, Colombia</p>
+      </li>
+      <li class="job compact">
+        <div class="job-head"><h3>Presales Engineer <span class="company">· NEC de Colombia</span></h3><span class="meta">Feb 2015 - Oct 2016</span></div>
+        <p class="where">Bogotá, Colombia</p>
+      </li>
+    </ol>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <div class="skill"><h3>SaaS &amp; Enterprise Platforms</h3><p>Salesforce CRM and Service Cloud, Avaya CCaaS and UCaaS, NICE CXone, Gainsight, SAP, Oracle NetSuite, ServiceNow, Microsoft Dynamics 365, Workday, Jira, Confluence, Tableau, and Microsoft 365.</p></div>
+      <div class="skill"><h3>Cloud &amp; Infrastructure</h3><p>Azure, AWS, Google Cloud, Oracle Cloud (OCI), VMware, Docker, Cisco networking, Fortinet.</p></div>
+      <div class="skill"><h3>AI &amp; Automation</h3><p>AI agents, RAG, OpenAI ChatGPT, Agentforce, Dialogflow, IBM Watson, Cognigy, Microsoft Copilot.</p></div>
+      <div class="skill"><h3>APIs &amp; Integrations</h3><p>REST APIs, OpenAPI, Swagger, Postman, sandbox testing, mTLS, Visa Direct and Currencycloud APIs, JavaScript, Node.js, Express.js, SQL, MySQL, YAML, XML, HTML, Git, GitHub, and Heroku.</p></div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications &amp; Training</h2>
+    <ul class="chips">
+      <li>Microsoft Azure Fundamentals (AZ-900)</li>
+      <li>Oracle Cloud Infrastructure Certified Foundations Associate</li>
+      <li>Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate</li>
+      <li>AI Agents for Cognigy Users</li>
+      <li>Cognigy Foundations (2025)</li>
+      <li>Fortinet NSE 1, NSE 2, NSE 3</li>
+      <li>Cisco Architecture &amp; Business</li>
+      <li>Avaya Professional Certifications</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <div class="grid2">
+      <div>
+        <h2>Education</h2>
+        <div class="stack">
+          <div class="card"><h3>Bachelor’s Degree in Telecommunications Engineering</h3><p>Universidad Santo Tomás · Bogotá, Colombia · 2009 - 2014</p></div>
+          <div class="card"><h3>English Immersion Program</h3><p>Bouchereau Lingua International · Montreal, QC, Canada · 2018 - 2019</p></div>
+        </div>
+      </div>
+      <div>
+        <h2>Awards</h2>
+        <div class="stack">
+          <div class="card"><h3>Avaya Academy Class 2020</h3><p>Selected by the regional VP as a future leader for Caribbean and Latin America.</p></div>
+          <div class="card"><h3>Outstanding Sales Performance, 2015</h3><p>NEC Corporation of America · Latin American Support Center (LASC)</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Edwin Torres · Senior Solutions Engineer · Bogotá, Colombia</span>
+    <span><a href="https://www.linkedin.com/in/edwin-torres-gutierrez" target="_blank" rel="noopener">LinkedIn</a> · <a href="mailto:edwintorresguti@hotmail.com">edwintorresguti@hotmail.com</a> · <a href="Edwin_Torres_Resume.pdf" download>CV (PDF)</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
